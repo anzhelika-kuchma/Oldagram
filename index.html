@@ -4,35 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Oldagram</title>
 </head>
 <body>
-  <head>
-    <img class="oldrgam-logo" src="images/logo.png" alt="Oldagram logo">
-    <img class="your-avatar" src="images/user-avatar.png" alt="avatar of a user">
-  </head>
-  <main>
-    <section class="user-info">
-      <img class="user-avatar" src="images/avatar-vangogh.jpg" alt="avatar">
-      <div class="user-full-name">Vincent van Gogh</div>
-      <div class="location-text">Zudert, Netherlands</div>
-    </section>
+  <div class="container">
+    <header>
+        <img class="oldrgam-logo" src="images/logo.png" alt="Oldagram logo">
+        <img class="your-avatar" src="images/user-avatar.png" alt="avatar of a user">
+      </header>
+      <main>
+        <section class="user-info">
+          <img class="user-avatar" src="images/avatar-vangogh.jpg" alt="avatar">
+          <div>
+            <div class="bold">Vincent van Gogh</div>
+            <div class="location-text">Zudert, Netherlands</div>
+          </div>
+        </section>
 
-    <section class="post-content">
-      <img class="post-img" src="images/post-vangogh.jpg" alt="post">
-      <div class="post-icons">
-        <img class="icon" src="images/icon-heart.png" alt="like icon" >
-        <img class="icon" src="images/icon-dm.png" alt="share icon" >
-        <img class="icon" src="images/icon-comment.png" alt="comment icon" >
-      </div>
-      <div class="like-count">21 likes</div>
-      <div class="username-caption">
-        <div class="username">vincey1853</div>
-        <div class="caption">just took a few mushrooms lol</div>
-      </div>
-    </section>
-  </main>
+        <section class="post-content">
+          <img class="post-img" src="images/post-vangogh.jpg" alt="post">
+          <div class="post-icons">
+            <img class=" icon icon-like" src="images/icon-heart.png" alt="like icon" >
+            <img class="icon icon-commetn" src="images/icon-comment.png" alt="comment icon" >
+            <img class="icon icon-share" src="images/icon-dm.png" alt="share icon" >
+          </div>
+          <div class="like-count bold">21 likes</div>
+          <div class="username-caption"> <span class="username bold">vincey1853</span> just took a few mushrooms lol</div>
+        </section>
+    
+      </main>
+  </div>
 <script src="index.js"></script>
 </body>
 </html>
